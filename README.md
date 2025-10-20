@@ -109,23 +109,41 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 
 
 ---
-## 🧾 Output & Fabrication
+---
+
+## 📦 Fabrication Outputs
+
+The project includes full manufacturing and assembly documentation for **JLCPCB** and other PCB assembly vendors.
+
+### 🧾 Bill of Materials (BOM)
+| Field | Example |
+|:------|:--------|
+| **Component Count** | 38 unique parts (Samsung, Yageo, FTDI, Espressif, TI, etc.) |
+| **Main ICs** | ESP32-S3-MINI-1-N8, FT231XQ-R, TL1963A-33DCYR |
+| **Passive Parts** | 0402 Capacitors & Resistors (Yageo / Samsung) |
+| **ESD / Protection** | Littelfuse AQ3045-01ETG |
+| **Connectors** | Molex USB-C (217179-0001), Samtec Headers (FTS-103-01-F-S / FTS-102-01-F-S) |
+| **LEDs** | Vishay VLMG1500-GS08 (Green), VLMS1500-GS08 (Red) |
+| **Supplier Integration** | LCSC + DigiKey references with cross-checked MPNs |
+
+🧩 The BOM is exported directly from **Altium Designer 25.8.1**, containing:
+- Description, Designator, Footprint, Quantity, Manufacturer, MPN, LCSC / DigiKey number  
+- All capacitors and resistors use **0402 metric footprint**  
+- Variant configuration for **NF (Not Fitted)** parts included  
 
 
-- Gerber / NC Drill: inches, verified in ViewMate
 
-- Layer sequence: L1:GTL, L2:G1, L3:GP1, L4:GBL
+---
 
-- BOM: CSV includes LCSC + Manufacturer PN
+### 📍 Pick & Place (Component Position)
+| Field | Example Data |
+|:------|:--------------|
+| **Coordinates** | X/Y in mils (Altium standard) |
+| **Rotation** | 0°, 90°, 180°, 270° |
+| **Layers** | TopLayer / BottomLayer |
+| **Included Fields** | Designator, Comment, Layer, Footprint, Center-X, Center-Y, Rotation, Description |
 
-- Pick & Place: Center X/Y, Rotation, Layer, Footprint
 
-- PDFs: Top, Bottom, Schematic (A4 @100%)
-
-- DRC: All green — only silk/placement waivers noted
-
-🏭 Fabricated for JLCPCB 4-Layer Standard Process
-- FR-4, Green/White, 1.6 mm, HASL (Lead), Full Probe Test
 
 ---
 ## 🧠 Learnings & Focus
