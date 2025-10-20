@@ -4,10 +4,9 @@ Custom **ESP32-S3 (ESP32-S3-MINI-1-N8)** development board designed from scratch
 ---
 
 ## 🧩 Overview
-```
+
 > A fully custom ESP32-S3-MINI-1-N8 dev board built as a learning and portfolio project.  
 > Designed and validated for manufacturability, signal integrity, and professional layout discipline.
-```
 --- 
 Key specs:
 - ✅ USB-C interface (Molex I/O connector)
@@ -61,13 +60,13 @@ Key specs:
 ## 🧭 Schematic Overview
 ```
 USB-C (Power / Data)
-│
+     │
 [FT231X UART Bridge]
-│
+     │
 ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
-│
+     │
 [LDO Regulator]
-│
+     │
 +3V3 / +5V
 ```
 ---
@@ -113,33 +112,33 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 ## 🧾 Output & Fabrication
 
 
-Gerber / NC Drill: inches, verified in ViewMate
+- Gerber / NC Drill: inches, verified in ViewMate
 
-Layer sequence: L1:GTL, L2:G1, L3:GP1, L4:GBL
+- Layer sequence: L1:GTL, L2:G1, L3:GP1, L4:GBL
 
-BOM: CSV includes LCSC + Manufacturer PN
+- BOM: CSV includes LCSC + Manufacturer PN
 
-Pick & Place: Center X/Y, Rotation, Layer, Footprint
+- Pick & Place: Center X/Y, Rotation, Layer, Footprint
 
-PDFs: Top, Bottom, Schematic (A4 @100%)
+- PDFs: Top, Bottom, Schematic (A4 @100%)
 
-DRC: All green — only silk/placement waivers noted
+- DRC: All green — only silk/placement waivers noted
 
 🏭 Fabricated for JLCPCB 4-Layer Standard Process
-FR-4, Green/White, 1.6 mm, HASL (Lead), Full Probe Test
+- FR-4, Green/White, 1.6 mm, HASL (Lead), Full Probe Test
 
 ---
 ## 🧠 Learnings & Focus
 
 
-Real-world PCB stackup and impedance control
+- Real-world PCB stackup and impedance control
 
-Rule-based design approach (Component, Clearance, DiffPairs)
+- Rule-based design approach (Component, Clearance, DiffPairs)
 
-Synchronizing schematic ↔ PCB libraries
+- Synchronizing schematic ↔ PCB libraries
 
-DRC-driven layout verification
+- DRC-driven layout verification
 
-Preparation of Gerber, BOM, Pick & Place, and PDF documentation
+- Preparation of Gerber, BOM, Pick & Place, and PDF documentation
 
 ---
