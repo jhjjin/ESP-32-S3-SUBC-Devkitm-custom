@@ -111,7 +111,7 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 
 ---
 ## 🧾 Output & Fabrication
-```
+
 
 Gerber / NC Drill: inches, verified in ViewMate
 
@@ -127,10 +127,10 @@ DRC: All green — only silk/placement waivers noted
 
 🏭 Fabricated for JLCPCB 4-Layer Standard Process
 FR-4, Green/White, 1.6 mm, HASL (Lead), Full Probe Test
-```
+
 ---
 ## 🧠 Learnings & Focus
-```
+
 
 Real-world PCB stackup and impedance control
 
@@ -141,5 +141,5 @@ Synchronizing schematic ↔ PCB libraries
 DRC-driven layout verification
 
 Preparation of Gerber, BOM, Pick & Place, and PDF documentation
-```
+
 ---
