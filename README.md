@@ -97,7 +97,7 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 - **Polygon pour:** direct connect for +3V3, thermal for GND  
 
 📸 *Example top/bottom views can be added here:*  
-```markdown
+markdown
 <p align="center">
   <img src="docs/images/Layer.PNG" width="85%" alt="PCB Layout Overview">
 </p>
@@ -105,7 +105,7 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 | 3D Front | 3D Back |
 |:---------:|:--------:|
 | <img src="docs/images/PCB%203D%20Front.PNG" width="95%"> | <img src="docs/images/PCB%203D%20Back.PNG" width="95%"> |
-```
+
 
 ---
 ## 🧾 Output & Fabrication
