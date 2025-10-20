@@ -98,16 +98,16 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
  
 ## 🖼️ Hardware Preview
 
+
 <p align="center">
-  <img src="docs/images/Layer.PNG" width="85%" alt="PCB Layout Overview">
+  <img src="./docs/images/Layer.PNG" width="85%" alt="PCB Layout Overview">
 </p>
 
 | 3D Front | 3D Back |
 |:---------:|:--------:|
-| <img src="docs/images/PCB%203D%20Front.PNG" width="95%" alt="3D Front View"> | <img src="docs/images/PCB%203D%20Back.PNG" width="95%" alt="3D Back View"> |
+| <img src="./docs/images/PCB%203D%20Front.PNG" width="95%" alt="3D Front View"> | <img src="./docs/images/PCB%203D%20Back.PNG" width="95%" alt="3D Back View"> |
 
 > **Figure:** PCB layout (Layer) and 3D render previews for the custom ESP32-S3 USB-C DevkitM board.
-
 
 ---
 ## 🧾 Output & Fabrication
