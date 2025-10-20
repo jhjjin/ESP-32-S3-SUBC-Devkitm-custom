@@ -4,9 +4,11 @@ Custom **ESP32-S3 (ESP32-S3-MINI-1-N8)** development board designed from scratch
 ---
 
 ## 🧩 Overview
+```
 > A fully custom ESP32-S3-MINI-1-N8 dev board built as a learning and portfolio project.  
 > Designed and validated for manufacturability, signal integrity, and professional layout discipline.
-
+```
+--- 
 Key specs:
 - ✅ USB-C interface (Molex I/O connector)
 - ✅ FTDI FT231XQ-R USB-UART bridge  
