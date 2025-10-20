@@ -47,13 +47,23 @@ Key specs:
 | Function | Part | Supplier | LCSC Part No |
 |-----------|------|-----------|---------------|
 | MCU | ESP32-S3-MINI-1-N8 | ESPRESSIF | **C2913206** |
-| USB-UART | FT231XQ-R | FTDI | – |
-| ESD Protection | AQ3045-01ETG | Littelfuse | – |
-| Regulator | TI LDO (3.3 V) | Texas Instruments | – |
-| LED | RC0402FR-071KL (1 kΩ) | Yageo | – |
-| Cap | CL05B104KB54PNC (100 nF) | Samsung | – |
-| Cap | CL05A475MO5NUNC (4.7 µF) | Samsung | – |
-| Jumper | FTS-103-01-F-S / FTS-102-01-F-S | Samtec | – |
+| USB-UART | FT231XQ-R | FTDI | **C3212159** |
+| ESD Protection | AQ3045-01ETG | Littelfuse | **C3710326** |
+| Regulator | TL1963A-33DCYR (3.3 V LDO) | Texas Instruments | **C1812626** |
+| LED (Green) | VLMG1500-GS08 | Vishay | **C5111404** |
+| LED (Red) | VLMS1500-GS08 | Vishay | **C5111370** |
+| Cap (100 nF, 50 V) | CL05B104KB54PNC | Samsung | **C307331** |
+| Cap (4.7 µF, 16 V) | CL05A475MO5NUNC | Samsung | **C318563** |
+| Resistor (1 kΩ) | RC0402FR-071KL | Yageo | **C106023** |
+| Resistor (4.7 kΩ) | RC0402FR-074K7L | Yageo | **C105871** |
+| Resistor (5.1 kΩ) | RC0402FR-075K1L | Yageo | **C1447745** |
+| Resistor (10 kΩ) | RC0402FR-0710KL | Yageo | **C1444807** |
+| Jumper Header (2-pin) | FTS-102-01-F-S | Samtec | **C6045317** |
+| Jumper Header (3-pin) | FTS-103-01-F-S | Samtec | **C3333578** |
+| Shunt | M50-1920005 | Harwin | **C6985646** |
+| USB-C Connector | 217179-0001 | Molex | **C3197684** |
+| Transistor | SS8050-G | Comchip | **C21406** |
+| Diode (TVS) | AQ3045-01ETG | Littelfuse | **C3710326** |
 
 ---
 
