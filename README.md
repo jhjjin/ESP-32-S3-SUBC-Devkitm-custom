@@ -70,7 +70,6 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 │
 +3V3 / +5V
 ```
-
 ---
 
 ---
@@ -96,14 +95,18 @@ ESP32-S3-MINI-1-N8 ←→ Boot / Reset / LEDs / Headers
 - **GND stitching vias:** around USB and RF areas  
 - **Polygon pour:** direct connect for +3V3, thermal for GND  
 
-📸 *Example top/bottom views can be added here:*  
+ 
+## 🖼️ Hardware Preview
+
 <p align="center">
-  <img src="docs/images/layer.png" width="85%" alt="PCB Layout Overview">
+  <img src="docs/images/Layer.PNG" width="85%" alt="PCB Layout Overview">
 </p>
 
 | 3D Front | 3D Back |
 |:---------:|:--------:|
-| <img src="docs/images/pcb-3d-front.png" width="95%"> | <img src="docs/images/pcb-3d-back.png" width="95%"> |
+| <img src="docs/images/PCB%203D%20Front.PNG" width="95%" alt="3D Front View"> | <img src="docs/images/PCB%203D%20Back.PNG" width="95%" alt="3D Back View"> |
+
+> **Figure:** PCB layout (Layer) and 3D render previews for the custom ESP32-S3 USB-C DevkitM board.
 
 
 ---
